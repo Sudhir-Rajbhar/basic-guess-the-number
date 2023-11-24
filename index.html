@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <header class="header">
+        <h2>Can You Guess The Number</h2>
+    </header>
+    <main class="main">
+        <p>Try to guess a number between 1 to 100</p>
+        <p>You have 10 attempts to guess the right number</p>
+        <p>We will guide you, that your guess is low or high</p>
+        <form class="form">
+            <label for="guessInput">Guess The Number</label>
+            <input type="number" name="" id="guessInput">
+            <button type="submit" value="" id="submt" class="submitBtn">Submit</button>
+        </form>
+        <div class="resultParas">
+        <p>Previous Guesses: <span class="lastGuess"></span></p>
+        <p>Your Remaining Credit: <span class="remainingGuess">10</span></p>
+        <p class="displayMsg"></p>
+    </div>
+    </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

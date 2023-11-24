@@ -1,0 +1,67 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+    color: white;
+}
+.wrapper {
+    width: 25em;
+    border: 2px solid rgb(124, 7, 219);
+}
+.header {
+    background-color: rgb(124, 7, 219);
+    color: white;
+    text-align: center;
+}
+.header h2 {
+    padding: 1em;
+    margin: 0;
+}
+.main {
+    text-align: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form > * {
+    margin: 10px;
+}
+label {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#guessInput {
+    padding: 10px;
+    border: 5px solid rgba(124, 7, 219, 0.5);
+    outline: transparent;
+}
+button {
+    padding: 10px;
+    border: 5px solid rgba(124, 7, 219, 0.5);
+    cursor: pointer;
+    transition: background-color .7s, color .4s;
+    font-weight: 700;
+}
+button:hover {
+    background-color: rgb(124, 7, 219);
+    color:white;
+}
+.remainingGuess {
+    background-color: rgb(124, 7, 219);
+    padding: 5px;
+    border-radius: 5px;
+}
+.remainingGuess {
+    background-color: rgb(124, 7, 219);
+    padding: 5px;
+    border-radius: 5px;
+}
